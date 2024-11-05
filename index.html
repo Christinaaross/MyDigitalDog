@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Animation Controls</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box" id="box">
+        <!-- Dog sprite -->
+        <div class="dog" id="dog"></div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button onclick="setAction('walk')">Walk</button>
+        <button onclick="setAction('sit')">Sit</button>
+        <button onclick="setAction('lay')">Lay Down</button>
+        <button onclick="setAction('run')">Run</button>
+        <button onclick="togglePause()" id="pause-button">Pause</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
